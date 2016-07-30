@@ -46,15 +46,19 @@ $(function() {
          }
     })
     $('.rrdz').on('click',function(){
-        jishi();
-        kaishi();
+        if(flag){
+            jishi();
+            kaishi();
+        }
         isAi=false;
         $('.rjdz').off('click');
         $('.ztjc').addClass('ksbc');
     })
     $('.rjdz').on('click',function(){
-        jishi();
-        kaishi();
+        if(flag){
+            jishi();
+            kaishi();
+        }
         isAi=true;
         $('.rrdz').off('click');
         $('.ztjb').addClass('ksbb');
@@ -197,7 +201,6 @@ $(function() {
 
     $('.csks').on('click',function(){
         location.reload();
-        clearInterval(tt);
         $('.ztjd').addClass('ksbd');
     })
 
