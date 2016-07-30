@@ -23,12 +23,14 @@ $width:550px;
   top:25px;
   left: 0;right: 0;
   margin: 0 auto;
+  z-index: 321;
 
 }
 .qipan{
   @extend %center;
   width: $width;
   height: $width;
+  z-index: 121232123;
 
 }
 .qizi{
@@ -99,14 +101,26 @@ $width:550px;
     left:11.5*$width/15;
   }
 }
-.ksyx{
+.zuohe{
+  width: 50%;
+  position: absolute;
+  top:0;left: 0;
+  bottom: 0;
+  margin: auto;
+  .hezi{
+    width: 260px;
+    height: 500px;
+    position: absolute;
+    top:0;bottom: 0;right: 50%;
+    margin: auto;
+
+    .ksyx{
   width: 250px;
   height:80px;
   background: url(111.png);
   cursor: pointer;
-  margin-left: 140px;
-  margin-top:120px;
   border: 1px solid transparent ;
+  margin-top:10% ;
 
 }
 .rjdz{
@@ -114,7 +128,6 @@ $width:550px;
   height:80px;
   background: url(111.png);
   background-position:0 -80px;
-  margin:15px 140px;
   cursor: pointer;
   border: 1px solid transparent ;
 }
@@ -123,7 +136,6 @@ $width:550px;
   height:80px;
   background: url(111.png);
   background-position:0 -145px;
-  margin:15px 140px;
   cursor: pointer;
   border: 1px solid transparent ;
 }
@@ -132,7 +144,6 @@ $width:550px;
   height:80px;
   background: url(111.png);
   background-position:0 -220px;
-  margin:15px 140px;
   cursor: pointer;
   border: 1px solid transparent ;
 }
@@ -204,14 +215,31 @@ $width:550px;
   background-position:-2px -12px;
   margin-left:205px;
 }
+
+  }
+  
+}
+.youhe{
+  width: 50%;
+  position: absolute;
+  top:0;bottom: 0;right:0 ;
+  margin: auto;
+  .hezhi{
+     width:300px;
+    height: 500px;
+    position: absolute;
+    top:0;bottom: 0;
+    left: 50%;
+    margin: auto;
 .baipan{
   width: 200px;
   height: 200px;
   background: url(bai.png);
   background-size: cover;
   position: absolute;
-  top:70px;
-  right:200px;
+  top:0;
+  left: 0;right: 0;
+  margin: auto;
 }
 .heipan{
   width: 200px;
@@ -219,8 +247,9 @@ $width:550px;
   background: url(hei.png);
   background-size: cover;
   position: absolute;
-  bottom:70px;
-  right:200px;
+  bottom: 0;left: 0;right: 0;
+  margin: auto;
+
 }
 .jsq{
   width:250px;
@@ -228,7 +257,9 @@ $width:550px;
   background: url(sj.png);
   background-size: cover;
   position: absolute;
-  top:270px;right: 160px;
+  top:0;left: 0;
+  right: 0;bottom: 0;
+  margin: auto;
 }
 .jsq span{
   margin-left:60px;
@@ -237,6 +268,9 @@ $width:550px;
   font-size:60px;
   font-family: "微软雅黑";
   color:#fff;
+}
+
+  }
 }
 .bqy{
   width:550px;
