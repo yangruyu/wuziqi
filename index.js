@@ -22,6 +22,7 @@ $(function() {
     var time = 0;
     var  min=0;
     var second=0;
+    var flag=true;
     $(".jsq span").html("0:00");
     function jishi(){
         tt=setInterval(function(){
@@ -38,10 +39,11 @@ $(function() {
         },1000);
     }
      $('.ksyx').on('click',function(){
-         jishi();
-         kaishi();
-        $('.ztja').addClass('ksba');
-
+         if(flag){
+             jishi();
+             kaishi();
+             $('.ztja').addClass('ksba');
+         }
     })
     $('.rrdz').on('click',function(){
         jishi();
@@ -63,11 +65,8 @@ $(function() {
 
 
     function kaishi() {
-
-
-
-
-        var panduan = function (pos, biao) {
+            flag=false;
+            var panduan = function (pos, biao) {
             var h = 1, s = 1, zx = 1, yx = 1;
             var tx, ty;
             /*横向*/
@@ -198,6 +197,7 @@ $(function() {
 
     $('.csks').on('click',function(){
         location.reload();
+        clearInterval(tt);
         $('.ztjd').addClass('ksbd');
     })
 

@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 
-.qipan {
+.zhonghe .qipanda .qipan {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,26 +19,37 @@ body {
   margin: auto;
 }
 
-.qipanda {
-  width: 550px;
-  height: 585px;
-  background: url(bjt.jpg);
-  background-position: -130px -31px;
-  position: absolute;
-  top: 25px;
+.zhonghe {
+  width: 50%;
+  position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  bottom: 0;
+  margin: auto;
+}
+
+.zhonghe .qipanda {
+  width: 550px;
+  height: 595px;
+  background: url(bjt.jpg);
+  background-position: -130px -40px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   z-index: 321;
 }
 
-.qipan {
+.zhonghe .qipanda .qipan {
   width: 550px;
   height: 550px;
   z-index: 121232123;
 }
 
-.qizi {
+.zhonghe .qipanda .qizi {
   position: relative;
   z-index: 2;
   width: 30.66667px;
@@ -48,15 +59,15 @@ body {
   border-radius: 50%;
 }
 
-.hei {
+.zhonghe .qipanda .hei {
   background: #000;
 }
 
-.bai {
+.zhonghe .qipanda .bai {
   background: #fff;
 }
 
-.han {
+.zhonghe .qipanda .han {
   position: absolute;
   display: block;
   height: 1px;
@@ -65,7 +76,7 @@ body {
   left: 18.33333px;
 }
 
-.lie {
+.zhonghe .qipanda .lie {
   position: absolute;
   display: block;
   width: 1px;
@@ -74,127 +85,127 @@ body {
   top: 18.33333px;
 }
 
-.qipan b:nth-of-type(1) {
+.zhonghe .qipanda .qipan b:nth-of-type(1) {
   top: 18.33333px;
 }
 
-.qipan i:nth-of-type(1) {
+.zhonghe .qipanda .qipan i:nth-of-type(1) {
   left: 18.33333px;
 }
 
-.qipan b:nth-of-type(2) {
+.zhonghe .qipanda .qipan b:nth-of-type(2) {
   top: 55px;
 }
 
-.qipan i:nth-of-type(2) {
+.zhonghe .qipanda .qipan i:nth-of-type(2) {
   left: 55px;
 }
 
-.qipan b:nth-of-type(3) {
+.zhonghe .qipanda .qipan b:nth-of-type(3) {
   top: 91.66667px;
 }
 
-.qipan i:nth-of-type(3) {
+.zhonghe .qipanda .qipan i:nth-of-type(3) {
   left: 91.66667px;
 }
 
-.qipan b:nth-of-type(4) {
+.zhonghe .qipanda .qipan b:nth-of-type(4) {
   top: 128.33333px;
 }
 
-.qipan i:nth-of-type(4) {
+.zhonghe .qipanda .qipan i:nth-of-type(4) {
   left: 128.33333px;
 }
 
-.qipan b:nth-of-type(5) {
+.zhonghe .qipanda .qipan b:nth-of-type(5) {
   top: 165px;
 }
 
-.qipan i:nth-of-type(5) {
+.zhonghe .qipanda .qipan i:nth-of-type(5) {
   left: 165px;
 }
 
-.qipan b:nth-of-type(6) {
+.zhonghe .qipanda .qipan b:nth-of-type(6) {
   top: 201.66667px;
 }
 
-.qipan i:nth-of-type(6) {
+.zhonghe .qipanda .qipan i:nth-of-type(6) {
   left: 201.66667px;
 }
 
-.qipan b:nth-of-type(7) {
+.zhonghe .qipanda .qipan b:nth-of-type(7) {
   top: 238.33333px;
 }
 
-.qipan i:nth-of-type(7) {
+.zhonghe .qipanda .qipan i:nth-of-type(7) {
   left: 238.33333px;
 }
 
-.qipan b:nth-of-type(8) {
+.zhonghe .qipanda .qipan b:nth-of-type(8) {
   top: 275px;
 }
 
-.qipan i:nth-of-type(8) {
+.zhonghe .qipanda .qipan i:nth-of-type(8) {
   left: 275px;
 }
 
-.qipan b:nth-of-type(9) {
+.zhonghe .qipanda .qipan b:nth-of-type(9) {
   top: 311.66667px;
 }
 
-.qipan i:nth-of-type(9) {
+.zhonghe .qipanda .qipan i:nth-of-type(9) {
   left: 311.66667px;
 }
 
-.qipan b:nth-of-type(10) {
+.zhonghe .qipanda .qipan b:nth-of-type(10) {
   top: 348.33333px;
 }
 
-.qipan i:nth-of-type(10) {
+.zhonghe .qipanda .qipan i:nth-of-type(10) {
   left: 348.33333px;
 }
 
-.qipan b:nth-of-type(11) {
+.zhonghe .qipanda .qipan b:nth-of-type(11) {
   top: 385px;
 }
 
-.qipan i:nth-of-type(11) {
+.zhonghe .qipanda .qipan i:nth-of-type(11) {
   left: 385px;
 }
 
-.qipan b:nth-of-type(12) {
+.zhonghe .qipanda .qipan b:nth-of-type(12) {
   top: 421.66667px;
 }
 
-.qipan i:nth-of-type(12) {
+.zhonghe .qipanda .qipan i:nth-of-type(12) {
   left: 421.66667px;
 }
 
-.qipan b:nth-of-type(13) {
+.zhonghe .qipanda .qipan b:nth-of-type(13) {
   top: 458.33333px;
 }
 
-.qipan i:nth-of-type(13) {
+.zhonghe .qipanda .qipan i:nth-of-type(13) {
   left: 458.33333px;
 }
 
-.qipan b:nth-of-type(14) {
+.zhonghe .qipanda .qipan b:nth-of-type(14) {
   top: 495px;
 }
 
-.qipan i:nth-of-type(14) {
+.zhonghe .qipanda .qipan i:nth-of-type(14) {
   left: 495px;
 }
 
-.qipan b:nth-of-type(15) {
+.zhonghe .qipanda .qipan b:nth-of-type(15) {
   top: 531.66667px;
 }
 
-.qipan i:nth-of-type(15) {
+.zhonghe .qipanda .qipan i:nth-of-type(15) {
   left: 531.66667px;
 }
 
-.qipan span {
+.zhonghe .qipanda .qipan span {
   display: block;
   width: 9.16667px;
   height: 9.16667px;
@@ -204,34 +215,34 @@ body {
   transform: translate3d(-45%, -45%, 0);
 }
 
-.qipan span:nth-of-type(1) {
+.zhonghe .qipanda .qipan span:nth-of-type(1) {
   top: 128.33333px;
   left: 128.33333px;
 }
 
-.qipan span:nth-of-type(2) {
+.zhonghe .qipanda .qipan span:nth-of-type(2) {
   top: 128.33333px;
   left: 421.66667px;
 }
 
-.qipan span:nth-of-type(3) {
+.zhonghe .qipanda .qipan span:nth-of-type(3) {
   top: 275px;
   left: 275px;
 }
 
-.qipan span:nth-of-type(4) {
+.zhonghe .qipanda .qipan span:nth-of-type(4) {
   top: 421.66667px;
   left: 128.33333px;
 }
 
-.qipan span:nth-of-type(5) {
+.zhonghe .qipanda .qipan span:nth-of-type(5) {
   top: 421.66667px;
   left: 421.66667px;
 }
 
 .zuohe {
-  width: 50%;
-  position: absolute;
+  width: 25%;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -244,7 +255,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 50%;
+  right: 0;
   margin: auto;
 }
 
@@ -357,8 +368,8 @@ body {
 }
 
 .youhe {
-  width: 50%;
-  position: absolute;
+  width: 25%;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
@@ -371,7 +382,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 0;
   margin: auto;
 }
 
